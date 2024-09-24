@@ -16,19 +16,19 @@ work and their precedence (the order in which they are evaluated).
 
 | Name                  | Operator| Prec.      | Example        | Math Equivalent |
 |-----------------------|---------|------------|----------------|----------------|
-| Parentheses/brackets	| ()      | 1	       | x = (2 + 3)/2  |  $ x = \frac{2+3}{5}$ |
+| Parentheses/brackets	| ()      | 1	       | x = (2 + 3)/2  |  $x = \frac{2+3}{5}$ |
 |			            |         | 	       | x = 2.5 	    |                       |
 | Exponentiation        | **      | 2	       | x = 3 ** 2		|  $x = 3^2$            |
 | 			            |         | 	       | x = 9			|             |
-| Multiplication        | *	      | 3	       | x = 3 * 2.5	|   $ x = 3 \times 2.5$ |
+| Multiplication        | *	      | 3	       | x = 3 * 2.5	|   $x = 3 \times 2.5$ |
 | 	                    | 	      |            | x = 7.5		|  
-| Division		        | /	      | 3	       | x = 5 / 2		|  $ x = \frac{5}{2}$ |
+| Division		        | /	      | 3	       | x = 5 / 2		|  $x = \frac{5}{2}$ |
 |                       |         |            | x = 2.5		|                     |
 | Integer Division      | //	  | 3	       | x = 5 // 2     |  N/A - round down after dividing |
 | 	                    |         |            | x = 2		    |  
 | Modulo                | %	      | 3	       | x = 5 % 2      |  N/A - remainder after dividing |
 |                       |         |            | x = 1          |  |
-| Addition	            | +	      | 4          | x = 2 + 2		|  $ x = 2 + 2$ |
+| Addition	            | +	      | 4          | x = 2 + 2		|  $x = 2 + 2$ |
 |                       |         |            | x = 4			|  |
 | Subtraction	        | -	      | 4	       | x = 5 - 6		|  $x = 5-6$ |
 | 	                    |         |            | x = -1			|  |
@@ -85,7 +85,7 @@ By hand, write Python arithmetic expressions for each of the following. Assume t
 Since you are writing a math formula, it is okay for your variable names to be short (e.g. just "A").
 
 
-1. $A + \frac{B}{C+D} $
+1. $A + \frac{B}{C+D}$
 2. $(X-1)(Y-4)$ 
 3. $\frac{-B + X}{2A}$ 
 4. $XY^2Z$ 
