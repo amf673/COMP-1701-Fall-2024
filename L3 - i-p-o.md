@@ -33,15 +33,15 @@ $PS(n) = P_0 + (P_0 \times r \times t)$
 
 Where $PS(n)$ is the value of the an investment of $P_0$ after $t$ years at interest rate $r$.
 
-$ PS(4) = 100 + 100 \times 0.12 \times 4  = 148.00$
+$PS(4) = 100 + 100 \times 0.12 \times 4  = 148.00$
 
 If the interest is compounding we calculate the years interest on the new amount, thus
 
-$ P(1) = 100 + (100*0.12) = 112$
+$P(1) = 100 + (100*0.12) = 112$
 
-$ P(2) = 112 + (112*0.12) = 125.44$
+$P(2) = 112 + (112*0.12) = 125.44$
 
-$ P(3) = 125.44 + (125.44*0.12) = 140.4928$
+$P(3) = 125.44 + (125.44*0.12) = 140.4928$
 
 $ P(4) = 140.4928 + (140.4928*0.12) = 157.351936$
 
@@ -51,7 +51,7 @@ $P(t) = P_0 (1 + r) ^t$
 
 $P(t)$ is the value of an investment of $P_0$ after $t$ years at a compound interest rate of $r$. And we can see that
 
-$ P(4) = 100 (1 + 0.12) ^ 4 = 100( 1.12) ^ 4 = 100(1.57351936) = 157.351936$
+$P(4) = 100 (1 + 0.12) ^ 4 = 100( 1.12) ^ 4 = 100(1.57351936) = 157.351936$
 
 So you want compond interest for your investments.
 
@@ -122,7 +122,7 @@ It is often useful to be able to calculate the doubling time of some value that 
 
 The formula for doubling time is
 
-$ T_d = \frac{ln(2)}{ln(1+\frac{r}{100})}$
+$T_d = \frac{ln(2)}{ln(1+\frac{r}{100})}$
 
 and this is approximately equal to
 
