@@ -29,7 +29,5 @@ while counter < number:
     print(f"counter = {counter:4d} term = {term:10.6f} result = {result:10.6f}" )
 
 print( f"\n\nFinal Result    = {result:30.19f}")
-
 print( f"\n\nThe value of pi = {math.pi:30.19f}")
-
 print( f"\n\nThe difference  = {result-math.pi:30.19f}\n\n\n")
