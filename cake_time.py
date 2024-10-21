@@ -1,5 +1,5 @@
 # COMP 1701 
-# Fall 2023
+# Fall 2024
 # Lab 4
 
 import math
