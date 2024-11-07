@@ -2,7 +2,7 @@
 # Fibonacci Numbers: https://en.wikipedia.org/wiki/Fibonacci_sequence
 # 
 def fib_1 (n:int)->None:
-    """ print the first n fibonacci numbers """
+    """ print the first n Fibonacci numbers """
     if n == 0: 
         print("0")
     elif n == 1:
