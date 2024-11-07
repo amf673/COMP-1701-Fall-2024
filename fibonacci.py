@@ -1,3 +1,6 @@
+# 
+# Fibonacci Numbers: https://en.wikipedia.org/wiki/Fibonacci_sequence
+# 
 def fib_1 (n:int)->None:
     """ print the first n fibonacci numbers """
     if n == 0: 
