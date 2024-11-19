@@ -22,6 +22,9 @@ Need string slicing for this. Try these to see what they do.
 """
 
 def sarc2(s:str)->str:
+     """ convert sentence to sarcastic font (alternating case). 
+        Using a for iterator loop
+    """
     upper = True
     result = ""
     for ch in s:
@@ -34,6 +37,9 @@ def sarc2(s:str)->str:
 
 
 def sarc(s:str)->str:
+    """ convert sentence to sarcastic font (alternating case). 
+        Using a for loop
+    """
     upper = True
     result = ""
     for i in range(0, len(s)):
@@ -45,7 +51,7 @@ def sarc(s:str)->str:
     return result
 
 def sarcastic(sentence:str)->str: 
-    """ convert to sarcastic. """
+    """ convert sentence to sarcastic font (alternating case). """
     i = 0
     upper = True
     result = ""
