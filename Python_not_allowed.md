@@ -31,7 +31,7 @@ We can now have multiple conditions and multiple points where a loop can end. So
 Normally a function should only have one return statement. There are times where multiple returns are ok but do try to avoid it. It makes for mulitple conditions and points where the 
 function could end, and again hard to read and hard to debug code. 
 
-## if __name__ == "__main__"
+## ``if __name__ == "__main__"``
 
 This shows up in a lot in examples. It is something that you would use if you were creating a program with various modules and all of our programs are single modules. It does not mess anything up, but it is not usually needed. The if statement checks if this is the module that was called to execute and if it is, it executes main(). If this module was imported the if will not be true and main() will not be executed. 
 
