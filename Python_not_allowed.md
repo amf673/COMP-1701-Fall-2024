@@ -54,6 +54,10 @@ Python provides a number of data structures for working with collections of obje
 - Dictionaries - a key value store.
 We will not be teaching any of these and none of the programming we do needs them.
 
+## try/except 
+
+This is Python's run time error handling mechanism. A similar feature exists in Java. This is something that is covered in the second programming class. We will use try/except for file handling, but not for anything else. 
+
 
 
 
