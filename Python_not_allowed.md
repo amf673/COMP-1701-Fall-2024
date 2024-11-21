@@ -31,6 +31,33 @@ We can now have multiple conditions and multiple points where a loop can end. So
 Normally a function should only have one return statement. There are times where multiple returns are ok but do try to avoid it. It makes for mulitple conditions and points where the 
 function could end, and again hard to read and hard to debug code. 
 
+## if __name__ == "__main__"
+
+This shows up in a lot in examples. It is something that you would use if you were creating a program with various modules and all of our programs are single modules. It does not mess anything up, but it is not usually needed. The if statement checks if this is the module that was called to execute and if it is, it executes main(). If this module was imported the if will not be true and main() will not be executed. 
+
+## List comprehensions 
+
+Another technique that shows up often on Stack Overflow and ChatGPT. A list comprehension is 
+a way to create and work with lists. We do not teach them as this is not available in other languages and
+it is important to have the skills to do these operations with the tools available.
+
+An example from w3 schools is:
+```Python
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+```
+## Dictionaries, Maps and Tuples
+
+Python provides a number of data structures for working with collections of objects. We use ``list``s. There are also 
+- Tuples - like a mathematical tuple. A 4-tuple could be (1,2,5,6)
+- Sets - like a mathematical set. No duplicates.
+- Dictionaries - a key value store.
+We will not be teaching any of these and none of the programming we do needs them.
+
+
+
+
+
 
 
 
