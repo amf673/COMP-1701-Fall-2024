@@ -58,6 +58,18 @@ We will not be teaching any of these and none of the programming we do needs the
 
 This is Python's run time error handling mechanism. A similar feature exists in Java. This is something that is covered in the second programming class. We will use try/except for file handling, but not for anything else. 
 
+## Returning multiple values
+
+If is possible in Python to do something like this: 
+
+```Python
+def foo (x:int, y:int):
+   """ a nonsense function """
+   return (x+1, y+1)
+```
+which in some instances may seem like a good thing to do. Python, like most progamming languages (C++, Java) does not allow returning multiple values. This construct creates a Tuple and returns that.
+We are not using Tuples (see above). You code is much more readable, easier to test and maintain when it is kept simpler, so not returning Tuples. 
+
 
 
 
