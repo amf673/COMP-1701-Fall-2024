@@ -49,9 +49,11 @@ newlist = [x for x in fruits if "a" in x]
 ## Dictionaries, Maps and Tuples
 
 Python provides a number of data structures for working with collections of objects. We use ``list``s. There are also 
+
 - Tuples - like a mathematical tuple. A 4-tuple could be (1,2,5,6)
 - Sets - like a mathematical set. No duplicates.
 - Dictionaries - a key value store.
+  
 We will not be teaching any of these and none of the programming we do needs them.
 
 ## try/except 
