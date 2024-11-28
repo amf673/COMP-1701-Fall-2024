@@ -7,7 +7,7 @@ READ_MODE = "r"
 WRITE_MODE = "w"
 APPEND_MODE = "a" 
 
-csv_file = open("animals.csv","r")
+csv_file = open("animals.csv",READ_MODE)
 
 header = csv_file.readline()
 # we will treat the header separately 
