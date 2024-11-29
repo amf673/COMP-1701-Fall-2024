@@ -1,3 +1,5 @@
+# COMP 1701 
+# A. Fedoruk 
 # 
 # The guessing game
 # 
