@@ -18,7 +18,7 @@ def empty_2d_list(rows:int, cols:int, init_value) -> list:
 def main():
     r = int(input("Enter the number of rows you want: "))
     c = int(input("Enter the number of columns you want: "))
-    int_list = empty_2d_list(r,c)
+    int_list = empty_2d_list(r,c,0)
     print(int_list)
 
 main()
