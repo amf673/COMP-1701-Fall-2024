@@ -1,18 +1,18 @@
 # 
 # a function to create an empty list
 # 
-def empty_list(n:int)-> list:
-    """ Create an empty list of size n. Intialize the cells to 0."""
+def empty_list(n:int, init_value)-> list:
+    """ Create an empty list of size n. Intialize the cells to init_value"""
     new_list = []
     for i in range(n):
-        new_list.append(0)
+        new_list.append(init_value)
     return new_list
 
-def empty_2d_list(rows:int, cols:int) -> list:
+def empty_2d_list(rows:int, cols:int, init_value) -> list:
     """ Create an empty list of size rows x cols. Intialize the cells to 0."""
     new_list = []
     for i in range(rows):
-        new_list.append(empty_list(cols))
+        new_list.append(empty_list(cols), init_value)
     return new_list
 
 def main():
