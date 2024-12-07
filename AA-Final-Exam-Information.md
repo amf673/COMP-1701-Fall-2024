@@ -19,11 +19,10 @@ You will likely get an email from the registrar's office with a bunch of rules a
 
 ## Format of the Exam
 
-- 12 multiple choice 12 marks. 
-- 10 short answer/tracing. 40 marks
-- 6 coding. 47 marks 
+- 14 multiple choice 14 marks/19%. 
+- 4 short answer/tracing 17 marks/23% 
+- 5 coding 45 marks/60%
 
-This may change a little, but by taking questions out, not by adding them. 
 The exam will be much like the two midterms in character. 
 
 ## What to Study
@@ -61,9 +60,7 @@ It will only take a few minutes and it will give you a better idea of how to bud
 
 If you are not getting a question, move on. You can come back to it later. 
 
-The multiple-choice questions are meant to be done fairly quickly. 
-They are only worth 1 each. 
-The final will be out of about 100, and the exam is weighted at 30% so each multiple-choice is worth 0.3 of a percent of your final grade. 
+The multiple-choice questions are meant to be done fairly quickly. They are only worth 1 each. The final will be out of about 75, and the exam is weighted at 30% so each multiple-choice is worth 0.4 of your final grade. 
 
 The coding questions all have solutions that are less than 20-30 lines. If your code is getting long, you are likely off track and should rethink what you are doing. 
 
@@ -87,7 +84,13 @@ Your code will not be perfect, but what we are looking for when we are marking p
 
 ### Things To Do
 
-#### 1. Include type hints for all of your parameters and return values. 
+#### 1. Read the questions carefully. 
+
+You need to fully understand what is being asked before you can write a line of code. 
+Some questions ask you to write a function so you only need to write that. Others ask for a complete program 
+which should include a ``main()`` function and a call to ``main()``. 
+
+#### 2. Include type hints for all of your parameters and return values. 
 
 ```Python
     def my_awesomefunction( x:int, y:float) -> float:
@@ -95,9 +98,11 @@ Your code will not be perfect, but what we are looking for when we are marking p
     def my_other_function(applicant:list) -> None:
 ```
 
-#### 2. Use appropriate names for all variables and functions. 
+#### 3. Use appropriate names for all variables and functions. 
 
-Longer is not always better. ``i`` is a perfectly good name for a variable used as a loop counter. Name your variables for what they represent. 
+The goals is to have variable names that tell the reader what the variable is storing. 
+Longer is not always better. ``i`` is a perfectly good name for a variable used as a loop counter. 
+Name your variables for what they represent. 
 
 ```Python
     applicant = [] # a list a values that represents an applicant to the skilled worker program
@@ -110,7 +115,7 @@ Functions usually do something, like ``print()`` or ``input()`` so name them for
     def count_neighbours(life_grid:list)->int
 ```
 
-#### 3. Include a docstring for every function. 
+#### 4. Include a docstring for every function. 
 
 This can be quite succcinct, a line or two, and should describe what the function does.
 
@@ -125,7 +130,7 @@ Even if your function is not coded correctly, having a correct docstring will ga
 
 ### Things Not To Do
 
-#### 1. Create infinite loops
+#### 1. Don't Create Infinite Loops
 
 ```Python
 while True: 
@@ -139,7 +144,7 @@ You need to figure out what your loop continue condition is and code that.
 
 Think about what is your loop control variable? How is it initialized? How is it updated? What is the loop end condition? 
 
-#### 2. Comparing boolean variables to boolean literals
+#### 2. Don't Compare boolean variables to boolean literals
 
 ```Python
 if a_bool == True: 
@@ -173,7 +178,9 @@ You can just do:
 return response == "y"
 ```
 
-#### 3. Multiple return statements. Generally a function should have one return statement. There are times when more would be OK, but strive for one. 
+#### 3. Don't Use Multiple return statements. 
+
+Generally a function should have one return statement. There are times when more would be OK, but strive for one. 
 
 ```Python
 def score_age(applicant:list)->int: 
@@ -185,10 +192,11 @@ def score_age(applicant:list)->int:
         points = 12
     else 
         points = min(47-age,0)
+
     return points
 ```
 
-#### 4. List comprehensions
+#### 4. Don't Use List Comprehensions
 
 You may have found these online and they can be useful but there is nothing that we are asking you to do that would require one. List comprehensions look like this: 
 
@@ -200,11 +208,11 @@ newlist = [x for x in fruits if "a" in x]
 
 Whatever they do can always be done with a while loop. And most other languages (like Java in COMP 1502 or C++ in COMP 1633) do not have the feature so it is necessary to learn to do this without them. 
 
-#### 5. try/except 
+#### 5. Don't Use try/except 
 
-This is an important piece of programming but beyond the scope of this class. You will learn about this construct to COMP 1502 using Java. 
+This is an important piece of programming but beyond the scope of this class. You will learn about this construct in you next programming class. 
 
-#### 6. sum()
+#### 6. Don't Use List sum()
 
 Constructs like this: 
 ```Python
@@ -213,19 +221,10 @@ Constructs like this:
 
 are a very Python way to do things, but you can always do it using while loops and that is what you will have to do in other environments, so we want you to learn the loop algorithms rather than use this shortcut. 
 
-#### 7. Any of the other collections types in Python. 
+#### 7. Don't Use Any of the other collections types in Python. 
 
 We used lists but Python also has ``sets``, ``tuples`` and ``dictionaries``. We only worked with lists, so the others are off limits. 
 
-#### 8. map() 
+#### 8. Don't Use map() 
 
 We have not covered using map(). These is an element of functional programming that gets covered in upper year classes. 
-
-    sum([x ** 2 for x in range(1, 6)])
-are a very Python way to do things, but you can always do it using while loops and that is what you will have to do in other environments, so we want you to learn the loop algorithms rather than use this shortcut.
-
-7. Any of the other collections types in Python.
-We used lists but Python also has sets, tuples and dictionaries. We only worked with lists, so the others are off limits.
-
-8. map()
-We have not covered using map(). These is an element of functional programming that gets covered in upper year classes.
