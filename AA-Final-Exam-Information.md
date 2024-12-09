@@ -61,7 +61,7 @@ It will only take a few minutes and it will give you a better idea of how to bud
 
 If you are not getting a question, move on. You can come back to it later. 
 
-The multiple-choice questions are meant to be done fairly quickly. They are only worth 1 each. The final will be out of about 75, and the exam is weighted at 30% so each multiple-choice is worth 0.4 of your final grade. 
+The multiple-choice questions are meant to be done fairly quickly. They are only worth 1 each. The final will be out of about 75, and the exam is weighted at 25% so each multiple-choice is worth 0.4 of your final grade. 
 
 The coding questions all have solutions that are less than 20-30 lines. If your code is getting long, you are likely off track and should rethink what you are doing. 
 
