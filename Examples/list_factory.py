@@ -15,6 +15,18 @@ def empty_2d_list(rows:int, cols:int, init_value) -> list:
         new_list.append(empty_list(cols), init_value)
     return new_list
 
+def new_2d_list(rows:int, cols:int, init_value) -> list: 
+    """ Create an empty 2d list """
+    new_list = []
+    for i in range(rows):
+        row = []
+        for j in range(cols):
+            row.append(init_value)
+        new_list.append(row)
+        
+    return new_list
+    
+
 def main():
     r = int(input("Enter the number of rows you want: "))
     c = int(input("Enter the number of columns you want: "))
