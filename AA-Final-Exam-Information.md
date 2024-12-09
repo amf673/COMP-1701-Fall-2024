@@ -19,9 +19,10 @@ You will likely get an email from the registrar's office with a bunch of rules a
 
 ## Format of the Exam
 
+The exam has three parts for a total of 19 questions and 75 marks. 
 - 14 multiple choice 14 marks/19%. 
 - 4 short answer/tracing 17 marks/23% 
-- 5 coding 45 marks/60%
+- 5 coding 44 marks/58%
 
 The exam will be much like the two midterms in character. 
 
