@@ -9,8 +9,8 @@ inpfile = open("nums.txt", "r")
 lines = []
 line = inpfile.readline()
 while line != "":
-   line = inpfile.readline()
    lines.append(line)
+   line = inpfile.readline()
 inpfile.close()
 print(lines)
 
